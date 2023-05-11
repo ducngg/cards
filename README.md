@@ -11,8 +11,11 @@ The algorithm is not just if-else, in order to check validation of the playing c
 
 Example: 
 straight=1, dup=2 -> Played Double (event 2)
+
 straight=5, dup=1 -> Played Straight 5 (event 5)
+
 straight=3, dup=2 -> Played Straight 3 Duo (event 15) (Ba đôi thông)
+
 
 Alter the player choose what to play, the program will check if the cards played will return an event (playable) or not (like '3' '3' '4' '5' '5' will not return any valid event).
 
